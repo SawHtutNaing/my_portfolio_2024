@@ -320,7 +320,8 @@ label {
   }
   
   .skills__icon {
-	font-size: 2rem;
+	width: 2rem;
+	height:2rem;
 	margin-right: var(--mb-2);
 	color: var(--first-color);
   }
