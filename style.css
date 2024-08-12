@@ -580,13 +580,23 @@ left: 10px;
 
 
 .cv_container button:hover{
-	animation: cssAnimation_0 410ms 1 linear;
+	animation: cssAnimation_0 1000ms 1 linear;
+	
 }
 
+.cv_container button a:hover{
+ color: white;
+}
 @keyframes cssAnimation_0 {
-	to {
-	  transform: translate(0px, -49px);
+	50% {
+	  transform: translate(0px, -20px);
 	}
+
+	100%{
+		transform: translate(0px, 0px);
+
+	}
+
   }
 
 
