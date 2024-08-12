@@ -410,8 +410,18 @@ label {
   /* resuable css  */
 
   /* myworks  */
-  #myworks .card{
-	/* margin: auto; */
+  #myworks .card{ 
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 30rem;
+  }
+
+  .card-body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
   }
  
 
@@ -583,3 +593,9 @@ left: 10px;
   .same_height{
 	height : 250px !important;
   }
+
+
+.card{
+
+}
+  
