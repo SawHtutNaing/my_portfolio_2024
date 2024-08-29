@@ -422,6 +422,7 @@ label {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	height: 100px !important;
   }
  
 
@@ -509,6 +510,8 @@ left: 10px;
   .card{
     width: 300px;
   }
+
+  
   .navbar{
     width: 200px;
     height: 100vh;
